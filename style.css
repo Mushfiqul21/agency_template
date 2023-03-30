@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.w-1150{
+    width: 1150px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 15px;
+    padding: 20px 15px;
+}
+
+.menu li a {
+    color: black;
+}
+
+.menu li:hover {
+    background: #000;
+    border-radius: 5px;
+}
+
+.menu li:hover a {
+    color: white;
+}
+
+.banner {
+    background-image: url(img/banner.jpg);
+    height: 450px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    z-index:-1;
+}
+.overlay{
+    height: 450px;
+    width: 100%;
+    background: white;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.banner-content h1{
+font-size: 40px;
+}
+
+.banner-content {
+    width: 50%;
+    left: 25%;
+    color: black;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.banner-content h1,
+.banner-content p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    width: 12.5%;
+    background: white;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px 25px;
+}
+
+.learn-more a {
+    width: 100%;
+    color: black;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.card {
+    width: 30%;
+}
+.margin-card{
+   margin: 0 5%;
+}
+.review-content img {
+    border-radius: 50%;
+}
+.align-center {
+    text-align: center;
+}
+.card .img-bg{
+    margin: auto;
+}
+.img-bg{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(250, 220, 220, 0.782);
+    border-radius: 50%;
+}
+.img-width{
+    width: 100px;
+    height: 100px;
+}
+.about {
+    background: rgba(198, 198, 198, 0.5);
+    padding: 2%;
+}
+
+.about-content{
+    width: 50%;
+}
+.review-content{
+    width: 60%;
+    margin: 0 15%;
+}
+
+.d-flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.review-caption {
+    margin-left: 20px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.form {
+    width: 65%;
+    padding: 3%;
+    margin: auto;
+}
+
+.bg-form {
+    background: rgba(78, 122, 255, 0.937);
+}
+
+.form input {
+    width: 84%;
+    padding: 10px 10px;
+    background: rgba(78, 122, 255, 0.937);
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+}
+
+.form button {
+    color: rgba(24, 24, 255, 0.937);
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+.details h2{
+    font-size: 35px;
+}
+.about-company{
+    width: 30%;
+}
+.quick-links ul li a, .contact ul li a{
+    color: #333;
+}
+.socials{
+    width: 50%;
+    color: #333;
+}
+footer h4{
+    background: #000;
+    color: white;
+    padding: 20px 0;
+}
